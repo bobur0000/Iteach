@@ -1,0 +1,306 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.navbar{
+    background:#444;
+    padding: 15px;
+    width: 1385px;
+    height: 100%;
+}
+.navbar h2{
+    color: #fff;
+    float: left;
+    width: 70%;
+    font-family: sans-serif;
+    padding-left: 55px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around   ;
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+    padding: 15px;
+}
+.navbar ul li a:hover{
+    color: coral;
+    background: #333;
+
+}
+
+.container{
+    width: 100%;
+    height:600px;
+    font-family: sans-serif;
+    background-image: url(../1.jpg);
+    background-size: cover;
+}
+
+.container h2{
+    padding-top: 250px;
+    text-align: center;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.container p{
+    color: #fff;
+    text-align: center;
+    margin: 15px;
+
+}
+.button{
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background: #416ED9;
+    margin-left: 630px;
+    margin-top: 20px;
+    border: #416ED9 solid;
+    border-radius: 10px;;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+}
+
+.first{
+    width: 22%;
+    font-family: sans-serif, Verdana;
+    border: 3px solid black;
+    text-align: center;
+    font-weight: 600;
+    
+}
+
+.second{
+    width: 22%;
+    font-family: sans-serif, Verdana;
+    border: 3px solid black;
+    text-align: center;
+    font-weight: 600;
+}
+.third{
+    width: 22%;
+    font-family: sans-serif, Verdana;
+    border: 3px solid black;
+    text-align: center;
+    font-weight: 600;
+}
+.fourth{
+    width: 22%;
+    font-family: sans-serif, Verdana;
+    border: 3px solid black;
+    text-align: center;
+    font-weight: 600;
+}
+
+img{
+    width: 150px;
+    height: 150px;;
+}
+
+footer{
+    bottom: 0;
+    background: #444;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+footer h2{
+    color:white;
+}
+
+/*about.html*/
+
+.logo_one{
+    margin: 20px;
+    padding: 10px;
+    background: black;
+    color: white;
+    font-weight: 700;
+}
+.logo_one h2{
+    text-align: center;
+}
+
+.logo_two{
+
+    margin: 20px;
+    padding: 10px;
+    background: black;
+    color: white;
+    font-weight: 700;
+}
+.logo_two h2{
+    text-align: center;
+}
+
+.logo_three{
+    margin: 20px;
+    padding: 10px;
+    background: black;
+    color: white;
+    font-weight: 700;
+}
+.logo_three h2{
+    text-align: center;
+}
+
+.logo_four{
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+    background: black;
+    color: white;
+    font-weight: 700;
+    float: right;
+}
+
+.main{
+    width: 65%;
+    float: left;
+}
+
+.btn_group input{
+    float: right;
+    width: 1200px;
+    padding: 5px;
+}
+
+.btn_group button{
+    float: right;
+    padding: 5px;
+    width: 90px;
+}
+.btn_group{
+    background: #444;
+    width: 1385px;;
+    padding: 10px;
+    padding-bottom:40px ;
+    
+}
+
+.input_name{
+    background: #444;
+    margin: 20px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+}
+ .input_name input{
+     float: right;
+     padding: 5px;
+     margin-right: 15px;
+     width: 1200px;
+     margin-left: 58px;
+ }
+
+
+
+
+
+.input_number{
+    background: #444;
+    margin: 20px;
+    padding: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.input_number input{
+    float: right;
+    padding: 5px;
+    margin-right: 15px;
+    width: 1200px;
+}
+
+.input_email{
+    background: #444;
+    margin: 20px;
+    padding: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+
+}
+.input_email input{
+    float: right;
+    padding: 5px;
+    margin-right: 15px;
+    width: 1200px;
+    margin-left: 58px;
+}
+
+.great button{
+    background: #444;
+    color: white;
+    height: 70px;
+    font-weight: 700;
+    width: 150px;
+    margin-left: 700px;
+}
+
+.compas{
+    background: #333;
+    color: coral;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
